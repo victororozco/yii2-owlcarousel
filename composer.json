@@ -1,0 +1,21 @@
+{
+    "name": "victororozco/yii2-owlcarousel2",
+    "description": "Carousel for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","owlcarousel","carousel"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Victor Orozco",
+            "email": "vorozco.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "victororozco\\owlcarousel\\": ""
+        }
+    }
+}
