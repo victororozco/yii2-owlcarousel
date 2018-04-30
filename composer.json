@@ -1,9 +1,14 @@
 {
     "name": "victororozco/yii2-owlcarousel2",
-    "description": "Carousel for yii2",
+    "description": "Carousel adapted for yii2 framework",
+    "homepage": "https://github.com/victororozco/yii2-owlcarousel/",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","owlcarousel","carousel"],
     "license": "GPL-3.0+",
+    "support": {
+        "issues": "https://github.com/victororozco/yii2-owlcarousel/issues?state=open",
+        "source": "https://github.com/victororozco/yii2-owlcarousel"
+    },
     "authors": [
         {
             "name": "Victor Orozco",

@@ -1,6 +1,12 @@
 OwlCarousel
 ===========
-Carousel for yii2
+Carousel adapted for yii2 framework
+
+## Animation:
+[animated.css](https://daneden.github.io/animate.css/)
+
+# Owl Carousel 
+[owl.carousel.js](https://owlcarousel2.github.io)
 
 Installation
 ------------
@@ -28,4 +34,28 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \victororozco\carousel\OwlCarousel::widget(); ?>```
+use victororozco\owlcarousel\OwlCarousel;
+
+<?php OwlCarousel::begin([
+    'item'          => 1,
+    'loop'          => true,
+    'margin'        => 10,
+    'autoplay'      => true,
+    'animateIn'     => 'fadeInLeft',
+    'animateOut'    => 'slideOutDown',
+]); ?>
+
+<div class="item">
+    <img src="https://lorempixel.com/1024/480/technics/5/" />
+</div>
+
+<div class="item">
+    <img src="https://lorempixel.com/1024/480/technics/2/" />
+</div>
+
+<div class="item">
+    <img src="https://lorempixel.com/1024/480/technics/3/" />
+</div>
+
+<?php OwlCarousel::end(); ?>
+```
